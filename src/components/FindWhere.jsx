@@ -2,6 +2,7 @@ import React from "react";
 import { TfiMenuAlt } from "react-icons/tfi";
 import { SlLocationPin } from "react-icons/sl";
 import { IoIosSearch } from "react-icons/io";
+import ExpHome from "./ExpHome";
 const FindWhere = () => {
   return (
     <div className="m-5 md:m-16">
@@ -42,6 +43,7 @@ const FindWhere = () => {
              peer-checked:before:left-8 peer-checked:before:bg-blue-500"></div>
           </label>
         </div>
+        <ExpHome/>
       </div>
     </div>
   );
