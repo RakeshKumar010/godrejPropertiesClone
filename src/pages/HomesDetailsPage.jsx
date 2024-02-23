@@ -1,16 +1,17 @@
 import React from 'react'
-import Carousel from '../components/HomeDetails/Carousel'
 import Overview from '../components/HomeDetails/Overview'
 import Map from '../components/HomeDetails/Map'
 import Plan from '../components/HomeDetails/Plan'
 import Price from '../components/HomeDetails/Price'
 import Amenities from '../components/HomeDetails/Amenities'
+import PropertieCarousel from '../components/HomeDetails/PropertieCarousel'
 
 const HomesDetailsPage = () => {
   
   return (
     <div>
-      <Carousel/>
+      {/* <Carousel/> */}
+      <PropertieCarousel/>
       <Overview/>
       <Map/>
       <Plan/>

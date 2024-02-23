@@ -9,7 +9,7 @@ const BestLoaction = () => {
         </p>
       </div>
       <div className="flex justify-between gap-20 items-start">
-        <img src={BestLocation} alt="..." className="" />
+        <img src={BestLocation} alt="..." />
         <div className="flex flex-col gap-8">
           <p>
             Pune is considered the best city to work and live in. To cater to
