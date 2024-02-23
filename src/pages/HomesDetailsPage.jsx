@@ -8,16 +8,17 @@ import PropertieCarousel from '../components/HomeDetails/PropertieCarousel'
 import Gallery from '../components/HomeDetails/Gallery'
 
 const HomesDetailsPage = () => {
+
   
   return (
     <div>
-      {/* <Carousel/> */}
+ 
       <PropertieCarousel/>
-      <Overview/>
-      <Map/>
-      <Plan/>
-      <Price/>
-      <Amenities/>
+      <Overview />
+      <Map />
+      <Plan />
+      <Price />
+      <Amenities />
       <Gallery/>
     </div>
   )

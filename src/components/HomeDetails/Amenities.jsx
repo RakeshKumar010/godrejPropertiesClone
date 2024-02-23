@@ -1,9 +1,11 @@
+import { useContext } from "react";
 import Img from "../../assets/image/aminitzImg.png";
 import Img2 from "../../assets/image/aminitzImg2.png";
-
+import { MyContext } from "../../App";
 const Amenities = () => {
+  const {amenities}=useContext(MyContext)
   return (
-    <div className="md:p-10 bg-[#f4f1ec] pb-24">
+    <div className="md:p-10 bg-[#f4f1ec] pb-24" ref={amenities}>
 
         <div className="amenities-section-text flex items-end  md:text-base text-sm justify-center md:gap-36 py-20">
           <div className="">

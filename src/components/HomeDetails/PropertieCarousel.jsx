@@ -18,6 +18,7 @@ const PropertieCarousel = () => {
   return (
     <div className="relative  h-[72vh] md:h-[90vh]">
            <HomeDetailsNav/>
+       
       <Carousel >
         {data &&
           data.map((value) => {

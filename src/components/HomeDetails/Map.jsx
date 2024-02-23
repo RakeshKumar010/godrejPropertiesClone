@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import MapAddressCard from "./MapAddressCard";
+import { MyContext } from "../../App";
 
 const Map = () => {
+  const {location}=useContext(MyContext)
   return (
-    <div className="md:my-16 md:mx-10 m-3  ">
+    <div className="md:my-16 md:mx-10 m-3  " ref={location}>
       <div className="flex gap-4 justify-center">
         <p className="text-[12px] md:text-lg font-semibold mb-5 text-nowrap uppercase py-16">
           NEIGHBOURHOOD

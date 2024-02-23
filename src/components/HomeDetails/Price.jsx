@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MyContext } from "../../App";
 
 const Price = () => {
+  const {price}=useContext(MyContext)
   return (
-    <div className="md:m-10 m-3">
+    <div className="md:m-10 m-3" ref={price}>
       <div className="flex gap-4 justify-center">
         <p className="text-[12px] md:text-lg font-semibold mb-5 text-nowrap uppercase">
           PRICE
