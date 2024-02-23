@@ -14,19 +14,19 @@ const GetTouch = () => {
         <div className="flex flex-wrap justify-between items-center  ">
           <input
             type="text"
-            className="border-0 border-b-2 border-gray-600 bg-transparent py-2"
+            className="border-0 border-b-[1px] md:w-auto w-full border-gray-600 bg-transparent py-2"
             placeholder="Name"
           />
-          <div>
+      
             <input
               type="text"
-              className="border-0 border-b-2 border-gray-600 bg-transparent py-2"
+              className="border-0 border-b-[1px] md:w-auto w-full border-gray-600 bg-transparent py-2"
               placeholder="Mobile Number"
             />
-          </div>
+       
           <input
             type="text"
-            className="border-0 border-b-2 border-gray-600 bg-transparent py-2"
+            className="border-0 border-b-[1px] md:w-auto w-full border-gray-600 bg-transparent py-2"
             placeholder="Email ID"
           />
           

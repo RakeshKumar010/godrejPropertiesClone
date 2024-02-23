@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 
-const Pagination = ({ pageNo, setSPage, setEPage, ePage, sPage,totalItem }) => {
+const Pagination = ({
+  pageNo,
+  setSPage,
+  setEPage,
+  ePage,
+  sPage,
+  totalItem,
+}) => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const handlePageChange = (newPage) => {
@@ -46,12 +53,10 @@ const Pagination = ({ pageNo, setSPage, setEPage, ePage, sPage,totalItem }) => {
         } cursor-pointer`}
         onClick={() => {
           handlePageChange(currentPage + 1);
-  if(totalItem>ePage){
-    setSPage(sPage + 9);
+          if (totalItem > ePage) {
+            setSPage(sPage + 9);
             setEPage(ePage + 9);
-  }
-        
-       
+          }
         }}
       />
     </div>

@@ -1,21 +1,35 @@
-import React from "react";
+import Img from "../../assets/image/aminitzImg.png";
+import Img2 from "../../assets/image/aminitzImg2.png";
 
 const Amenities = () => {
   return (
-    <div className="md:p-10 bg-[#f4f1ec]">
-      <div className="flex gap-4 justify-center">
-        <p className="text-[12px] md:text-lg font-semibold mb-5 text-nowrap uppercase">
-          AMENITIES THAT BRING HAPPINESS & JOY EVERYDAY
-        </p>
-      </div>
+    <div className="md:p-10 bg-[#f4f1ec] pb-24">
 
-      <p className="text-center md:mb-10  mb-7 text-[12px] md:text-lg text-gray-500">
-        Your new home at Godrej Serene is tailored to your needs. It has been
-        crafted thoughtfully to give you the best of amenities and comforts.
-      </p>
-      <div style={{backgroundImage:`url('https://www.godrejproperties.com/_next/static/media/test.e7ccad97.webp')`,textAlign:'center'}}>
-      <button class="bg-white sm:py-4 p-2 md:my-[5vw] my-3 text-nowrap   sm:w-1/4">Experience all lifestyle amenities</button>
+        <div className="amenities-section-text flex items-end  md:text-base text-sm justify-center md:gap-36 py-20">
+          <div className="">
+         
+            <p>Alfresco Dining</p>
+          </div>
+          <div className="flex flex-col gap-2 items-center">
+            <img src={Img} alt="" className="md:w-28 w-20" />
+            <p>40 - seater theatre</p>
+          </div>
+          <div className="flex flex-col gap-2 items-center">
+            <img src={Img2} alt="" className="md:w-28 w-20" />
+            <p>Half Olympic size Infinti pool</p>
+          </div>
+        </div>
+   
 
+      <div
+        style={{
+          backgroundImage: `url('https://www.godrejproperties.com/_next/static/media/test.e7ccad97.webp')`,
+          textAlign: "center",
+        }}
+      >
+        <button class="bg-white sm:py-4 p-2 md:my-[5vw] my-3 text-nowrap   sm:w-1/4">
+          Experience all lifestyle amenities
+        </button>
       </div>
     </div>
   );
