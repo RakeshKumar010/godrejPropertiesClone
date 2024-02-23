@@ -38,10 +38,10 @@ const HomeDetailsNav = () => {
         className="back-block flex items-center text-white font-semibold text-[12px] md:text-lg"
       >
         <FaArrowLeftLong />
-        <span className="ml-2 md:block hidden">Back</span>
+        <span className="ml-2 md:block hidden select-none">Back</span>
       </Link>
       <ul className="flex items-center text-white gap-6 font-semibold text-[12px] md:text-lg">
-        <li className="cursor-pointer">
+        <li className="cursor-pointer select-none">
           <p
             onClick={() => {
               scrollToSection(overview);
@@ -50,7 +50,7 @@ const HomeDetailsNav = () => {
             Overview
           </p>
         </li>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer select-none">
           <p
             onClick={() => {
               scrollToSection(location);
@@ -59,7 +59,7 @@ const HomeDetailsNav = () => {
             Location
           </p>
         </li>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer select-none">
           <p
             onClick={() => {
               scrollToSection(plans);
@@ -68,7 +68,7 @@ const HomeDetailsNav = () => {
             Plans
           </p>
         </li>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer select-none">
           <p
             onClick={() => {
               scrollToSection(price);
@@ -77,7 +77,7 @@ const HomeDetailsNav = () => {
             Price
           </p>
         </li>
-        <li className="md:block hidden cursor-pointer">
+        <li className="md:block hidden cursor-pointer select-none">
           <p
             onClick={() => {
               scrollToSection(amenities);
