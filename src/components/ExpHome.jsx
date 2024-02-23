@@ -29,10 +29,7 @@ const ExpHome = () => {
           );
         })}
       </div>
-      {sPage}
-      {ePage}
-      {pageNo}
-      {totalItem}
+      
 
       <Pagination pageNo={pageNo} totalItem={totalItem} setSPage={setSPage} sPage={sPage} ePage={ePage} setEPage={setEPage}/>
     </div>
