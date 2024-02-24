@@ -19,6 +19,7 @@ import Home17 from "../assets/image/home17.webp";
 import Home18 from "../assets/image/home18.webp";
 const Homes = [
   {
+    id: "0",
     name: "GODREJ Emerald Waters",
     img: Home,
     location: "PIMPRI - CHINCHWAD, PUNE",
@@ -28,6 +29,7 @@ const Homes = [
     date: "Mar 2028",
   },
   {
+    id: "1",
     name: "Godrej Urban Retreat",
     img: Home1,
     location: " Kharadi - Manjari Road, PUNE",
@@ -37,6 +39,7 @@ const Homes = [
     date: "Oct 2027",
   },
   {
+    id: "2",
     name: "SkyAvenue Godrej Hill Retreat 2",
     img: Home2,
     location: " BANER-MAHALUNGE ROAD, PUNE",
@@ -46,6 +49,7 @@ const Homes = [
     date: "Mar 2027",
   },
   {
+    id: "3",
     name: "Godrej Serene",
     img: Home3,
     location: " Mumbai PUNE Expressway, PUNE",
@@ -55,6 +59,7 @@ const Homes = [
     date: "Dec 2026",
   },
   {
+    id: "4",
     name: "Godrej Forest Grove",
     img: Home4,
     location: " MAMURDI, PUNE",
@@ -64,6 +69,7 @@ const Homes = [
     date: "Mar 2024",
   },
   {
+    id: "5",
     name: "Godrej Hillside",
     img: Home5,
     location: "BANER-MAHALUNGE ROAD, PUNE",
@@ -73,6 +79,7 @@ const Homes = [
     date: "Apr 2024",
   },
   {
+    id: "6",
     name: "Godrej Meadows 2",
     img: Home6,
     location: "BANER-MAHALUNGE ROAD, PUNE",
@@ -82,6 +89,7 @@ const Homes = [
     date: "Dec 2025",
   },
   {
+    id: "7",
     name: "Godrej Parkridge",
     img: Home7,
     location: "KHARADI-MANJARI ROAD ROAD, PUNE",
@@ -91,6 +99,7 @@ const Homes = [
     date: "Mar 2025",
   },
   {
+    id: "8",
     name: "The Rivergreens",
     img: Home8,
     location: "Manajari, PUNE",
@@ -100,6 +109,7 @@ const Homes = [
     date: "Jan 2026",
   },
   {
+    id: "9",
     name: "Godrej Hill Retreat",
     img: Home9,
     location: "BANER-MAHALUNGE ROAD, PUNE",
@@ -109,6 +119,7 @@ const Homes = [
     date: "Jan 2026",
   },
   {
+    id: "10",
     name: "Godrej Woodsville",
     img: Home10,
     location: "PHASE 1-HINJEWADI, PUNE",
@@ -118,6 +129,7 @@ const Homes = [
     date: "Nov 2026",
   },
   {
+    id: "11",
     name: "Godrej Sky Greens",
     img: Home11,
     location: "KHARADI-MANJARI ROAD, PUNE",
@@ -127,6 +139,7 @@ const Homes = [
     date: "Mar 2026",
   },
   {
+    id: "12",
     name: "Godrej Rejuve",
     img: Home12,
     location: "KESHAVNAGAR, PUNE",
@@ -136,6 +149,7 @@ const Homes = [
     date: "Jan 2023",
   },
   {
+    id: "13",
     name: "Godrej Park Greens",
     img: Home13,
     location: "MAMURDI, PUNE",
@@ -145,6 +159,7 @@ const Homes = [
     date: "Sep 2023",
   },
   {
+    id: "14",
     name: "Godrej Green Cove",
     img: Home14,
     location: "RIVERHILLS, PUNE",
@@ -154,6 +169,7 @@ const Homes = [
     date: "Dec 2024",
   },
   {
+    id: "15",
     name: "Godrej Green Vistas",
     img: Home15,
     location: "MAHALUNGE, PUNE",
@@ -163,6 +179,7 @@ const Homes = [
     date: "Jan 2025",
   },
   {
+    id: "16",
     name: "Godrej Meadows",
     img: Home16,
     location: "BANER-MAHALUNGE, PUNE",
@@ -172,6 +189,7 @@ const Homes = [
     date: "",
   },
   {
+    id: "17",
     name: "Godrej Nurture",
     img: Home17,
     location: "MAMURDI, PUNE",
@@ -181,6 +199,7 @@ const Homes = [
     date: "Sep 2023",
   },
   {
+    id: "18",
     name: "Godrej Greens",
     img: Home18,
     location: "UNDRI, PUNE",

@@ -2,9 +2,9 @@ import { RiHome4Line } from "react-icons/ri";
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { Link } from "react-router-dom";
 const ExpHomeCards = ({ value }) => {
-  const { name, img, price, location, status, space, date } = value;
+  const {id, name, img, price, location, status, space, date } = value;
   return (
-    <Link to={'./properties-details'}
+    <Link to={'./properties-details/'+id}
       className="property-single col-span-1 mx-auto mt-6  flex flex-col "
       style={{ opacity: 1, transform: "none" }}
     >

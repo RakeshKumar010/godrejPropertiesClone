@@ -11,7 +11,7 @@ const Loyout = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="properties-details" element={<HomesDetailsPage/>}/>
+        <Route path="properties-details/:id" element={<HomesDetailsPage/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>
