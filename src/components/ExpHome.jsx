@@ -54,6 +54,7 @@ const ExpHome = () => {
                 <input
                   type="checkbox"
                   className="rounded-full  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  checked
                 />
                 <p>Residential</p>
               </div>
@@ -94,6 +95,7 @@ const ExpHome = () => {
                 <input
                   type="checkbox"
                   className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  checked
                 />
                 <p>Pune</p>
               </div>
@@ -162,6 +164,7 @@ const ExpHome = () => {
                 <input
                   type="checkbox"
                   className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  checked
                 />
                 <p>2 BHK</p>
               </div>
@@ -272,7 +275,7 @@ const ExpHome = () => {
             EXPLORE HOMES
           </p>
         </div>
-        <div className=" mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
+        <div className=" mt-6 grid grid-cols-1  md:grid-cols-2  lg:grid-cols-3">
           {Homes.slice(sPage, ePage).map((value, index) => {
             return <>{index < 9 ? <ExpHomeCards value={value} /> : null}</>;
           })}

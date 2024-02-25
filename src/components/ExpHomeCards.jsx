@@ -5,7 +5,7 @@ const ExpHomeCards = ({ value }) => {
   const {id, name, img, price, location, status, space, date } = value;
   return (
     <Link to={'./properties-details/'+id}
-      className="property-single col-span-1 mx-auto mt-6  flex flex-col "
+      className="property-single col-span-1 mx-auto mt-6  flex flex-col hover:shadow-lg p-3 "
       style={{ opacity: 1, transform: "none" }}
     >
       <figure className="property-picture undefined">
