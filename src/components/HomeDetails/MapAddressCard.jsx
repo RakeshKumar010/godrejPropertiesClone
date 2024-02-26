@@ -2,7 +2,7 @@ import Img from "../../assets/image/adresIcon.png";
 import Img2 from "../../assets/image/adresIcon2.png";
 import Img3 from "../../assets/image/adresIcon3.png";
 
-const MapAddressCard = () => {
+const MapAddressCard = ({mapad}) => {
   return (
     <div style={{
         boxShadow:'0 0 8px gray'
@@ -10,8 +10,7 @@ const MapAddressCard = () => {
       <div className="text-gray-600 ">
         <p>ADDRESS</p>
         <p className="text-[12px] pr-10">
-          Godrej Emerald Waters, MIDC, Pimpri Colony, Pimpri-Chinchwad, Pune,
-          Maharashtra 411018
+         {mapad}
         </p>
       </div>
       <div className="flex flex-col gap-5 overflow-y-scroll  h-[22vw] mt-5 map-scroll">

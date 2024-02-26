@@ -12,14 +12,14 @@ import Homes from '../data/Homes'
 const HomesDetailsPage = () => {
   // const {id} =match.params;
   const {id} =useParams()
-  const {name,location,price,space,date} = Homes.find(home => home.id === id);
+  const {name,location,price,space,date,ovtext,ovimg,planimg,map,mapad,maptext} = Homes.find(home => home.id === id);
   
   return (
     <div>
       <PropertieCarousel name={name} location={location} price={price} date={date} space={space}/>
-      <Overview  />
-      <Map />
-      <Plan />
+      <Overview ovtext={ovtext} ovimg={ovimg}/>
+      <Map map={map} mapad={mapad} maptext={maptext}/>
+      <Plan planimg={planimg}/>
       <Price />
       <Amenities />
       <Gallery/>

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { MyContext } from "../../App";
 
-const Plan = () => {
+const Plan = ({planimg}) => {
   const {plans}=useContext(MyContext)
   return (
     <div className="md:m-10 m-3" ref={plans}>
@@ -14,7 +14,7 @@ const Plan = () => {
         MASTER PLANS
       </p>
       <img
-        src="https://delf2iyv2crlj.cloudfront.net/Images/dlr-Godrej-Emeraldwaters-Pune-Master-Plan-3840X2160%2094c70ff4-9fca-46a8-aaf3-3c12f22b3dcb.webp"
+        src={planimg}
         alt="..."
         className="hover:border-2 hover:shadow-md"
       />
