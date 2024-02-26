@@ -8,6 +8,7 @@ import PropertieCarousel from '../components/HomeDetails/PropertieCarousel'
 import Gallery from '../components/HomeDetails/Gallery'
 import { useParams } from 'react-router-dom'
 import Homes from '../data/Homes'
+import FooterContact from '../components/FooterContact'
 
 const HomesDetailsPage = () => {
   // const {id} =match.params;
@@ -15,7 +16,7 @@ const HomesDetailsPage = () => {
   const {name,location,price,space,date,ovtext,ovimg,planimg,map,mapad,maptext} = Homes.find(home => home.id === id);
   
   return (
-    <div>
+    <div className='relative'>
       <PropertieCarousel name={name} location={location} price={price} date={date} space={space}/>
       <Overview ovtext={ovtext} ovimg={ovimg}/>
       <Map map={map} mapad={mapad} maptext={maptext}/>
@@ -23,6 +24,7 @@ const HomesDetailsPage = () => {
       <Price />
       <Amenities />
       <Gallery/>
+      <FooterContact/>
     </div>
   )
 }
