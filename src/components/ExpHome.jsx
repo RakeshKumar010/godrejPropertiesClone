@@ -53,7 +53,7 @@ const ExpHome = () => {
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="rounded-full  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="rounded-full  focus:border-transparent focus:ring-0 h-6 w-6"
                   checked
                 />
                 <p>Residential</p>
@@ -61,7 +61,7 @@ const ExpHome = () => {
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="rounded-full  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="rounded-full  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Commercial</p>
               </div>
@@ -87,14 +87,14 @@ const ExpHome = () => {
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Others</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                   checked
                 />
                 <p>Pune</p>
@@ -102,35 +102,35 @@ const ExpHome = () => {
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Bengaluru</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Noida</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Delhi</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Gurugram</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Mumbai</p>
               </div>
@@ -156,14 +156,14 @@ const ExpHome = () => {
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>1 BHK</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                   checked
                 />
                 <p>2 BHK</p>
@@ -171,21 +171,21 @@ const ExpHome = () => {
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>3 BHK</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>4+ BHK</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Plots</p>
               </div>
@@ -211,21 +211,21 @@ const ExpHome = () => {
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>New Launch</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Ready Possession</p>
               </div>
               <div className="flex items-center  gap-6 bg-white">
                 <input
                   type="checkbox"
-                  className="  focus:bg-[#4395e0] focus:border-transparent focus:ring-0 h-6 w-6"
+                  className="  focus:border-transparent focus:ring-0 h-6 w-6"
                 />
                 <p>Under Construction</p>
               </div>

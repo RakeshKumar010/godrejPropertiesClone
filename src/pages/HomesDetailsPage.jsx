@@ -13,15 +13,15 @@ import FooterContact from '../components/FooterContact'
 const HomesDetailsPage = () => {
   // const {id} =match.params;
   const {id} =useParams()
-  const {name,location,price,space,date,ovtext,ovimg,planimg,map,mapad,maptext} = Homes.find(home => home.id === id);
+  const {name,location,price,space,date,ovtext,ovimg,planimg,map,mapad,maptext,bhk1,bhk2,bhk3,floorplan1,floorplan2,floorplan3,unitplan1,unitplan2,unitplan3} = Homes.find(home => home.id === id);
   
   return (
     <div className='relative'>
       <PropertieCarousel name={name} location={location} price={price} date={date} space={space}/>
       <Overview ovtext={ovtext} ovimg={ovimg}/>
       <Map map={map} mapad={mapad} maptext={maptext}/>
-      <Plan planimg={planimg}/>
-      <Price />
+      <Plan planimg={planimg} floorplan={{floorplan1,floorplan2,floorplan3}} unitplan={{unitplan1,unitplan2,unitplan3}}/>
+      <Price bhk1={bhk1} bhk2={bhk2} bhk3={bhk3}/>
       <Amenities />
       <Gallery/>
       <FooterContact/>
