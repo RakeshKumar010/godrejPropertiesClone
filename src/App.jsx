@@ -11,8 +11,11 @@ const App = () => {
   const plans = useRef(null);
   const price = useRef(null);
   const amenities = useRef(null);
+  const gallery = useRef(null);
+  const download = useRef(null);
+
   return (
-    <MyContext.Provider value={{overview,location,plans,price,amenities}}>
+    <MyContext.Provider value={{overview,location,plans,price,amenities,gallery,download}}>
       <Loyout />
     </MyContext.Provider>
   );

@@ -17,7 +17,7 @@ const ExpHomeCards = ({ value }) => {
   const [isOpen,setIsOpen]=useState(false)
   return (
     <Link
-      to={"./properties-details/" + id}
+      to={"/properties-details/" + id}
       className="property-single col-span-1 mx-auto mt-6  flex flex-col hover:shadow-lg p-3 "
       style={{ opacity: 1, transform: "none" }}
     >

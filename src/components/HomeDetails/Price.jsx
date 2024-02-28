@@ -1,17 +1,18 @@
 import React, { useContext } from "react";
 import { MyContext } from "../../App";
+import EmiCalculator from "./EmiCalculator";
 
 const Price = ({ bhk1, bhk2, bhk3 }) => {
   const { price } = useContext(MyContext);
   return (
-    <div className="md:m-10 m-3" ref={price}>
-      <div className="flex gap-4 justify-center">
-        <p className="text-[12px] md:text-lg font-semibold mb-5 text-nowrap uppercase">
+    <div className="md:m-10 m-3 flex flex-col items-center" ref={price}>
+   
+        <p className="text-[12px] md:text-lg font-semibold mb-5 text-nowrap uppercase ">
           PRICE
         </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="">
+  
+      <div className="flex flex-wrap justify-center gap-10">
+        <div className="md:w-[520px] w-full">
           <div className="">
             <p className="md:py-6 py-4 text-center text-[11px] md:text-base text-white bg-[#c3aa62]">
               PRICE
@@ -41,7 +42,8 @@ const Price = ({ bhk1, bhk2, bhk3 }) => {
             GST, AMC, IFMS & other charges additional*
           </p>
         </div>
-        <div></div>
+        <EmiCalculator/>
+
       </div>
     </div>
   );

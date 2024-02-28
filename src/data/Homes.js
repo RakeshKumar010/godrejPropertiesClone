@@ -122,6 +122,88 @@ import Unitplan16b3 from '../assets/unitplan/unitplan16b3.webp'
 import Unitplan17b1 from '../assets/unitplan/unitplan17b1.webp'
 import Unitplan17b2 from '../assets/unitplan/unitplan17b2.webp'
 
+import Pro0s1 from '../assets/slider/pro0s1.webp'
+import Pro0s2 from '../assets/slider/pro0s2.webp'
+import Pro0s3 from '../assets/slider/pro0s3.webp'
+import Pro0s4 from '../assets/slider/pro0s4.webp'
+import Pro1s1 from '../assets/slider/pro1s1.webp'
+import Pro1s2 from '../assets/slider/pro1s2.webp'
+import Pro1s3 from '../assets/slider/pro1s3.webp'
+import Pro1s4 from '../assets/slider/pro1s4.webp'
+import Pro1s5 from '../assets/slider/pro1s5.webp'
+import Pro2s1 from '../assets/slider/pro2s1.webp'
+import Pro2s2 from '../assets/slider/pro2s2.webp'
+import Pro2s3 from '../assets/slider/pro2s3.webp'
+import Pro3s1 from '../assets/slider/pro3s1.webp'
+import Pro3s2 from '../assets/slider/pro3s2.webp'
+import Pro3s3 from '../assets/slider/pro3s3.webp'
+import Pro3s4 from '../assets/slider/pro3s4.webp'
+import Pro3s5 from '../assets/slider/pro3s5.webp'
+import Pro4s1 from '../assets/slider/pro4s1.webp'
+import Pro4s2 from '../assets/slider/pro4s2.webp'
+import Pro5s1 from '../assets/slider/pro5s1.webp'
+import Pro5s2 from '../assets/slider/pro5s2.webp'
+import Pro6s1 from '../assets/slider/pro6s1.webp'
+import Pro6s2 from '../assets/slider/pro6s2.webp'
+import Pro6s3 from '../assets/slider/pro6s3.webp'
+import Pro7s1 from '../assets/slider/pro7s1.webp'
+import Pro7s2 from '../assets/slider/pro7s2.webp'
+import Pro7s3 from '../assets/slider/pro7s3.webp'
+import Pro7s4 from '../assets/slider/pro7s4.webp'
+import Pro7s5 from '../assets/slider/pro7s5.webp'
+import Pro7s6 from '../assets/slider/pro7s6.webp'
+import Pro7s7 from '../assets/slider/pro7s7.webp'
+import Pro8s1 from '../assets/slider/pro8s1.webp'
+import Pro8s2 from '../assets/slider/pro8s2.webp'
+import Pro8s3 from '../assets/slider/pro8s3.webp'
+import Pro8s4 from '../assets/slider/pro8s4.webp'
+import Pro8s5 from '../assets/slider/pro8s5.webp'
+import Pro9s1 from '../assets/slider/pro9s1.webp'
+import Pro9s2 from '../assets/slider/pro9s2.webp'
+import Pro9s3 from '../assets/slider/pro9s3.webp'
+import Pro9s4 from '../assets/slider/pro9s4.webp'
+import Pro9s5 from '../assets/slider/pro9s5.webp'
+import Pro9s6 from '../assets/slider/pro9s6.webp'
+import Pro9s7 from '../assets/slider/pro9s7.webp'
+import Pro10s1 from '../assets/slider/pro10s1.webp'
+import Pro10s2 from '../assets/slider/pro10s2.webp'
+import Pro10s3 from '../assets/slider/pro10s3.webp'
+import Pro10s4 from '../assets/slider/pro10s4.webp'
+import Pro10s5 from '../assets/slider/pro10s5.webp'
+import Pro10s6 from '../assets/slider/pro10s6.webp'
+import Pro10s7 from '../assets/slider/pro10s7.webp'
+import Pro11s1 from '../assets/slider/pro11s1.webp'
+import Pro11s2 from '../assets/slider/pro11s2.webp'
+import Pro11s3 from '../assets/slider/pro11s3.webp'
+import Pro11s4 from '../assets/slider/pro11s4.webp'
+import Pro11s5 from '../assets/slider/pro11s5.webp'
+import Pro11s6 from '../assets/slider/pro11s6.webp'
+import Pro12s1 from '../assets/slider/pro12s1.webp'
+import Pro12s2 from '../assets/slider/pro12s2.webp'
+import Pro13s1 from '../assets/slider/pro13s1.webp'
+import Pro14s1 from '../assets/slider/pro14s1.webp'
+import Pro14s2 from '../assets/slider/pro14s2.webp'
+import Pro14s3 from '../assets/slider/pro14s3.webp'
+import Pro14s4 from '../assets/slider/pro14s4.webp'
+import Pro14s5 from '../assets/slider/pro14s5.webp'
+import Pro14s6 from '../assets/slider/pro14s6.webp'
+import Pro15s1 from '../assets/slider/pro15s1.webp'
+import Pro15s2 from '../assets/slider/pro15s2.webp'
+import Pro15s3 from '../assets/slider/pro15s3.webp'
+import Pro15s4 from '../assets/slider/pro15s4.webp'
+import Pro16s1 from '../assets/slider/pro16s1.webp'
+import Pro16s2 from '../assets/slider/pro16s2.webp'
+import Pro16s3 from '../assets/slider/pro16s3.webp'
+import Pro17s1 from '../assets/slider/pro17s1.webp'
+import Pro17s2 from '../assets/slider/pro17s2.webp'
+import Pro17s3 from '../assets/slider/pro17s3.webp'
+import Pro18s1 from '../assets/slider/pro18s1.webp'
+import Pro18s2 from '../assets/slider/pro18s2.webp'
+import Pro18s3 from '../assets/slider/pro18s3.webp'
+import Pro18s4 from '../assets/slider/pro18s4.webp'
+import Pro18s5 from '../assets/slider/pro18s5.webp'
+import Pro18s6 from '../assets/slider/pro18s6.webp'
+
 const Homes = [
   {
     id: "0",
@@ -149,6 +231,7 @@ const Homes = [
     bhk1: null,
     bhk2: "1.29 Cr.",
     bhk3: "3.20 Cr.",
+    slider:[Pro0s1,Pro0s2,Pro0s3,Pro0s4],
   },
   {
     id: "1",
@@ -176,6 +259,8 @@ const Homes = [
     bhk1: null,
     bhk2: "85.00 Lakh.",
     bhk3: "1.05 Cr.",
+    slider:[Pro1s1,Pro1s2,Pro1s3,Pro1s4,Pro1s5],
+ 
   },
   {
     id: "2",
@@ -203,6 +288,8 @@ const Homes = [
     bhk1: null,
     bhk2: "54.00 Lakh.",
     bhk3: "76.00 Lakh.",
+    slider:[Pro2s1,Pro2s2,Pro2s3],
+  
   },
   {
     id: "3",
@@ -231,6 +318,8 @@ const Homes = [
     bhk1: Unitplan3b3,
     bhk2: "77.70 Lakh.",
     bhk3: "92.00 Lakh.",
+    slider:[Pro3s1,Pro3s2,Pro3s3,Pro3s4,Pro3s5],
+
   },
   {
     id: "4",
@@ -259,6 +348,9 @@ const Homes = [
     bhk1: null,
     bhk2: "49.00 Lakh.",
     bhk3: "61.94 Lakh.",
+    slider:[Pro4s1,Pro4s2],
+
+   
   },
   {
     id: "5",
@@ -287,6 +379,9 @@ const Homes = [
     bhk1: "41.60 Lakh.",
     bhk2: "64.95 Lakh.",
     bhk3: "92.39 Lakh.",
+    slider:[Pro5s1,Pro5s2],
+
+   
   },
   {
     id: "6",
@@ -314,6 +409,9 @@ const Homes = [
     bhk1: "54.04 Lakh.",
     bhk2: "59.74 Lakh.",
     bhk3: "77.14 Lakh.",
+    slider:[Pro6s1,Pro6s2,Pro6s3],
+
+   
   },
   {
     id: "7",
@@ -341,6 +439,8 @@ const Homes = [
     bhk1: "39.48 Lakh.",
     bhk2: "57.92 Lakh.",
     bhk3: "77.58 Lakh.",
+    slider:[Pro7s1,Pro7s2,Pro7s3,Pro7s4,Pro7s5,Pro7s6,Pro7s7],
+   
   },
   {
     id: "8",
@@ -368,6 +468,8 @@ const Homes = [
     bhk1: null,
     bhk2: "1.56 Cr.",
     bhk3: "1.76 Cr.",
+    slider:[Pro8s1,Pro8s2,Pro8s3,Pro8s4,Pro8s5],
+   
   },
   {
     id: "9",
@@ -396,6 +498,8 @@ const Homes = [
     bhk1: "45.20 Lakh.",
     bhk2: "60.09 Lakh.",
     bhk3: null,
+    slider:[Pro9s1,Pro9s2,Pro9s3,Pro9s4,Pro9s5,Pro9s6,Pro9s7],
+   
   },
   {
     id: "10",
@@ -424,6 +528,8 @@ const Homes = [
     bhk1: "55.36 Lakh.",
     bhk2: "71.86 Lakh.",
     bhk3: "92.81 Lakh. ",
+    slider:[Pro10s1,Pro10s2,Pro10s3,Pro10s4,Pro10s5,Pro10s6,Pro10s7],
+   
   },
   {
     id: "11",
@@ -451,6 +557,8 @@ const Homes = [
     bhk1: "50.00 Lakh.",
     bhk2: "70.15 Lakh.",
     bhk3: "96.01 Lakh.",
+    slider:[Pro11s1,Pro11s2,Pro11s3,Pro11s4,Pro11s5,Pro11s6],
+   
   },
   {
     id: "12",
@@ -479,6 +587,8 @@ const Homes = [
     bhk1: null,
     bhk2: "65.74 Lakh.",
     bhk3: null,
+    slider:[Pro12s1,Pro12s2],
+   
   },
   {
     id: "13",
@@ -507,6 +617,9 @@ const Homes = [
     bhk1: null,
     bhk2: "44.38 Lakh.",
     bhk3: "56.91 Lakh.",
+    slider:[Pro13s1],
+ 
+   
   },
   {
     id: "14",
@@ -534,6 +647,9 @@ const Homes = [
     bhk1: "54.38 Lakh.",
     bhk2: "59.15 Lakh.",
     bhk3: "78.10 Lakh.",
+    slider:[Pro14s1,Pro14s2,Pro14s3,Pro14s4,Pro14s5,Pro14s6],
+
+   
   },
   {
     id: "15",
@@ -561,6 +677,8 @@ const Homes = [
     bhk1: "54.42 Lakh.",
     bhk2: "68.43 Lakh.",
     bhk3: "78.15 Lakh.",
+    slider:[Pro15s1,Pro15s2,Pro15s3,Pro15s4],
+   
   },
   {
     id: "16",
@@ -588,6 +706,8 @@ const Homes = [
     bhk1: "41.56 Lakh.",
     bhk2: "63.02 Lakh.",
     bhk3: "79.02 Lakh.",
+    slider:[Pro16s1,Pro16s2,Pro16s3],
+   
   },
   {
     id: "17",
@@ -616,6 +736,8 @@ const Homes = [
     bhk1: null,
     bhk2: "63.80 Lakh.",
     bhk3: null,
+    slider:[Pro17s1,Pro17s2,Pro17s3],
+   
   },
   {
     id: "18",
@@ -644,6 +766,8 @@ const Homes = [
     bhk1: null,
     bhk2: "54.00 Lakh.",
     bhk3: null,
+    slider:[Pro18s1,Pro18s2,Pro18s3,Pro18s4,Pro18s5,Pro18s6],
+   
   },
 ];
 

@@ -6,7 +6,8 @@ import SliderImg2 from '../../assets/image/slider2.jpg'
 import SliderImg3 from '../../assets/image/slider3.jpg'
 import SliderImg4 from '../../assets/image/slider4.jpg'
 import HomeDetailsNav from './HomeDetailsNav'
-const PropertieCarousel = ({name,location,price,date,space}) => {
+import ContactPopUp from './ContactPopUp'
+const PropertieCarousel = ({name,location,price,date,space,slider}) => {
     const data =[
         SliderImg,
         SliderImg1,
@@ -19,8 +20,8 @@ const PropertieCarousel = ({name,location,price,date,space}) => {
            <HomeDetailsNav/>
        
       <Carousel >
-        {data &&
-          data.map((value) => {
+        {slider &&
+          slider.map((value) => {
             return <img src={value} alt="..." className="w-full h-full  bg-contain " />;
           })}
       </Carousel>
@@ -40,6 +41,7 @@ const PropertieCarousel = ({name,location,price,date,space}) => {
           <p>{space}</p>
         </div>
       </div>
+      <ContactPopUp/>
     </div>
   );
 };

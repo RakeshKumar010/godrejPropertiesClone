@@ -13,7 +13,7 @@ const MapAddressCard = ({mapad}) => {
          {mapad}
         </p>
       </div>
-      <div className="flex flex-col gap-5 overflow-y-scroll  h-[22vw] mt-5 map-scroll">
+      {/* <div className="flex flex-col gap-5 overflow-y-scroll  h-[22vw] mt-5 map-scroll">
         <div className="flex gap-5 items-center pr-10">
           <img src={Img} alt=".." />
           <p className="text-[10px] text-gray-600">
@@ -38,7 +38,7 @@ const MapAddressCard = ({mapad}) => {
             Hinjewadi IT Park - 30 mins drive
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

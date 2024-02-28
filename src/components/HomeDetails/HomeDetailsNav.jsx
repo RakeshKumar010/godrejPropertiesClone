@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { MyContext } from "../../App";
 
 const HomeDetailsNav = () => {
-  const {overview,location,plans,price,amenities}=useContext(MyContext)
+  const {overview,location,plans,price,amenities,gallery,download}=useContext(MyContext)
   const [navBackground, setNavBackground] = useState('transparent');
 
   const handleScroll = () => {
@@ -84,6 +84,24 @@ const HomeDetailsNav = () => {
             }}
           >
             Amenities
+          </p>
+        </li>
+        <li className="md:block hidden cursor-pointer select-none">
+          <p
+            onClick={() => {
+              scrollToSection(gallery);
+            }}
+          >
+            Gallery
+          </p>
+        </li>
+        <li className="md:block hidden cursor-pointer select-none">
+          <p
+            onClick={() => {
+              scrollToSection(download);
+            }}
+          >
+            download
           </p>
         </li>
       </ul>

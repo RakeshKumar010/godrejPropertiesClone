@@ -1,19 +1,22 @@
-import ReraQr from '../../assets/image/reraqr.jpg'
+import { useContext } from "react";
+import { MyContext } from "../../App";
 
-const Gallery = () => {
+
+const Gallery = ({ slider }) => {
+  const { gallery } = useContext(MyContext);
+
   return (
-    <div className="md:p-10 my-10 ">
-      <div className="flex gap-4 justify-center">
+    <div className="md:p-10 my-10 " ref={gallery}>
+      <div className="flex flex-col pb-10 items-center gap-4 justify-center">
         <p className="text-lg  font-semibold md:font-bold  text-nowrap uppercase">
           GALLERY
         </p>
+      <p className="text-center  text-2xl font-thin">A blissful, idyllic lifestyle to perfectly complement your jam-packed, rushed urban life.</p>
       </div>
-      <div className='flex flex-col items-center'>
-        <button className='md:py-3 py-2 md:my-32 my-20 text-sm tracking-[1px] md:px-14 px-5  border-[1px] border-black '>VIEW GALLERY</button>
-        <div className='flex flex-col items-center gap-10'>
-            <p className='text-sm text-center'>RERA No: P52100051200, http://maharera.mahaonline.gov.in</p>
-            <img src={ReraQr} alt="rera-qr" className='w-52 '/>
-        </div>
+      <div className="m-6 flex flex-wrap gap-y-6 justify-evenly">
+        {slider.map((value,index) => {
+          return <img src={value} alt="" className={`rounded-md shadow-md shadow-black ${slider.length<2?"w-[500px]":"w-[420px]"}`} />;
+        })}
       </div>
     </div>
   );
