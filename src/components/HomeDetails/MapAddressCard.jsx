@@ -5,8 +5,8 @@ import Img3 from "../../assets/image/adresIcon3.png";
 const MapAddressCard = ({mapad}) => {
   return (
     <div style={{
-        boxShadow:'0 0 8px gray'
-    }} className="  pl-10 py-7 md:w-96 absolute top-10  rounded-md left-4 bg-white">
+        boxShadow:'2px 2px 5px gray'
+    }} className=" rounded-l-none pl-10 py-7 md:w-96 absolute md:bottom-20 bottom-36  rounded-md  bg-white">
       <div className="text-gray-600 ">
         <p>ADDRESS</p>
         <p className="text-[12px] pr-10">
