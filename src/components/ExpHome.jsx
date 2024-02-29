@@ -1,27 +1,31 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import ExpHomeCards from "./ExpHomeCards";
 import Homes from "../data/Homes";
 import Pagination from "./Pagination";
 import { IoIosArrowDown, IoIosSearch } from "react-icons/io";
+import { MyContext } from "../App";
 
 const ExpHome = () => {
   const [pageNo, setPageNo] = useState(0);
   const [sPage, setSPage] = useState(0);
   const [ePage, setEPage] = useState(9);
 
-  const [residentialTab, setResidentialTab] = useState(false);
-  const [citiesTab, setCitiesTab] = useState(false);
-  const [typeTab, setTypeTab] = useState(false);
-  const [statusTab, setStatusTab] = useState(false);
-  const [budgetTab, setBudgetTab] = useState(false);
+  // const [residentialTab, setResidentialTab] = useState(false);
+  // const [citiesTab, setCitiesTab] = useState(false);
+  // const [typeTab, setTypeTab] = useState(false);
+  // const [statusTab, setStatusTab] = useState(false);
+  // const [budgetTab, setBudgetTab] = useState(false);
   const totalItem = Homes.length;
 
   useEffect(() => {
     setPageNo(Math.ceil(totalItem / 9));
   }, []);
 
+
+  const {exphome}=useContext(MyContext)
+
   return (
-    <div>
+    <div ref={exphome}>
       <div
         className="flex gap-8 p-2 items-center rounded-sm  mb-5"
         style={{ boxShadow: "0 2px  5px #aaaaaa" }}
@@ -33,7 +37,7 @@ const ExpHome = () => {
           className="border-0 border-transparent focus:border-transparent focus:ring-0 w-full"
         />
       </div>
-      <div className=" md:flex hidden  border-[1px] border-blue-500 justify-between">
+      {/* <div className=" md:flex hidden  border-[1px] border-blue-500 justify-between">
         <div className="w-full">
           <div
             className="py-6 px-5 border-r-[1px] border-gray-400 w-full flex items-center justify-between "
@@ -256,9 +260,9 @@ const ExpHome = () => {
           </div>
         </div>
         <button className="bg-black text-white m-3 px-10  ">RESET</button>
-      </div>
+      </div> */}
 
-      <div className="md:flex hidden items-center w-full my-8 ">
+      {/* <div className="md:flex hidden items-center w-full my-8 ">
         <span className="mr-5">New Launches Only</span>
         <label htmlFor="toggle" className="flex items-center cursor-pointer">
           <input type="checkbox" id="toggle" className="sr-only peer" />
@@ -268,11 +272,11 @@ const ExpHome = () => {
        peer-checked:before:left-8 peer-checked:before:bg-blue-500"
           ></div>
         </label>
-      </div>
+      </div> */}
       <div>
         <div className="flex gap-4 justify-center">
-          <p className="text-lg font-semibold mb-5 text-nowrap">
-            EXPLORE HOMES
+          <p className="text-lg font-semibold mt-5 text-nowrap">
+            2BHK HOMES IN PUNE
           </p>
         </div>
         <div className=" mt-6 grid grid-cols-1  md:grid-cols-2  lg:grid-cols-3">

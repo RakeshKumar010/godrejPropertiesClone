@@ -10,7 +10,7 @@ const Footer = () => {
     <>
      <GetTouch/>
 
-    <footer className=" text-center  lg:text-left border-2">
+    <footer className=" text-center  lg:text-left border-2 text-gray-500">
       <div className="sm:px-10 sm:py-10 px-5 text-center md:text-left bg-[#fafafa]">
         <div className="grid-1 sm:grid gap-8 md:grid-cols-2 lg:grid-cols-6 hidden">
           <div className="">

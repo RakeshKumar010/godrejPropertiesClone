@@ -5,12 +5,12 @@ const ContactPopUp = () => {
     const [isOpen,setIsOpen]=useState(false)
   return (
     <div className="">
-      <div className="-rotate-90 fixed  -right-[59px] top-[50%] cursor-pointer border-2 border-black py-4 px-10 rounded-lg border-b-0 rounded-b-none bg-white" onClick={()=>{
+      <div className="-rotate-90 fixed z-30  -right-[59px] top-[50%] cursor-pointer border-2 border-black py-4 px-10 rounded-lg border-b-0 rounded-b-none bg-white" onClick={()=>{
         setIsOpen(true)
       }}>
         <p className="text-[10px]">SCHEDULE A VISIT</p>
       </div>
-      <div className={`md:w-[400px] w-full shadow-lg rounded-md  rounded-r-none fixed right-0 px-10 py-6 top-36 bg-white z-10  flex-col gap-5 ${isOpen?'flex':'hidden'}`}>
+      <div className={`md:w-[400px] w-full shadow-lg rounded-md z-30  rounded-r-none fixed right-0 px-10 py-6 top-36 bg-white   flex-col gap-5 ${isOpen?'flex':'hidden'}`}>
         <IoMdClose className="absolute top-3 font-bold right-3 text-2xl cursor-pointer " onClick={()=>{
               setIsOpen(false)
         }}/>

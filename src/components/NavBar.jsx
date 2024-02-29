@@ -12,9 +12,9 @@ const NavBar = () => {
       <img src={Logo} alt="... " className="md:h-12 h-6" />
       </Link>
 
-      <div className="flex gap-5">
-        <IoIosCall className="bg-gray-300/25 text-white text-5xl rounded-full p-3 md:block hidden " />
-        <IoIosSearch className="bg-gray-300/25 text-white text-3xl md:text-5xl rounded-full md:p-3 p-1" />
+      <div className="flex gap-5 cursor-pointer">
+        <IoIosCall className="bg-gray-300/25 text-white/40 text-5xl rounded-full p-3 md:block hidden " />
+        <IoIosSearch className="bg-gray-300/25 text-white/40 text-3xl md:text-5xl rounded-full md:p-3 p-1" />
         <IoMenu
           className="bg-gray-300/25 text-white text-3xl md:text-5xl rounded-full md:p-3 p-1"
           onClick={() => {
