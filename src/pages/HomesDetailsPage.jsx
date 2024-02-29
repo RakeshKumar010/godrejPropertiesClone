@@ -62,7 +62,7 @@ const HomesDetailsPage = () => {
       <Download />
       <YouMayLike id={id} />
 
-      <FooterContact />
+      <FooterContact     name={name}/>
     </div>
   );
 };
