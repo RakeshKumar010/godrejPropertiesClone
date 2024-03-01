@@ -32,7 +32,7 @@ const HomeDetailsNav = () => {
   };
 
   return (
-    <div className={`flex justify-between py-4 fixed top-14 md:top-20 z-50 left-0 right-0 border-t-2 px-3 md:px-10 ${navBackground}`}>
+    <div className={`flex justify-between py-4 fixed top-14 md:top-20 z-[40] left-0 right-0 border-t-2 px-3 md:px-10 ${navBackground}`}>
       <Link
         to={"../"}
         className="back-block flex items-center text-white font-semibold text-[12px] md:text-lg"

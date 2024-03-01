@@ -37,7 +37,7 @@ const ExpHomeCards = ({ value }) => {
             <img src={img} alt={name} />
           </Link>
           <div
-            className={`top-0 z-50  right-0 left-0 bg-black/80 absolute text-white py-7 h-full px-5 text-[10px] ${
+            className={`top-0 z-[39]  right-0 left-0 bg-black/80 absolute text-white py-7 h-full px-5 text-[10px] ${
               isOpen ? "block " : "hidden"
             } `}
           >
