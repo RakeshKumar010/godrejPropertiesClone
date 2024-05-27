@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Footer from "../components/Footer";
 import HomesDetailsPage from "../pages/HomesDetailsPage";
 import NavBar from "../components/NavBar";
+import ThankYou from "../components/ThankYou";
 
 const Loyout = () => {
   return (
@@ -12,6 +13,7 @@ const Loyout = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="properties-details/:id" element={<HomesDetailsPage/>}/>
+        <Route path="/thankyou" element={<ThankYou/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 
 const EnquirePopUp = ({ setIsOpenEnquire, heading }) => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     site: "Godrej Properties",
     fname: "",
@@ -43,7 +45,8 @@ const EnquirePopUp = ({ setIsOpenEnquire, heading }) => {
       Body: body,
     }).then((message) => {
       if (message == "OK") {
-     alert('form submitted successfully!')
+        navigate("/thankyou");
+        setIsOpenEnquire(false);
       } else {
         // console.log("error :", message);
         alert('form not submitted!')
