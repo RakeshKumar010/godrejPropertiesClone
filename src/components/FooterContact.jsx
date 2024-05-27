@@ -5,7 +5,7 @@ import { useState } from "react";
 import EnquirePopUp from "./EnquirePopUp";
 
 const FooterContact = ({ name }) => {
-  const phone = "917400087849";
+  const phone = "918208958245";
   const message = `I'm interested in ${name}, Pune`;
   const [isOpen, setIsOpen] = useState(false);
   const [heading, setHeading] = useState("");
@@ -17,7 +17,7 @@ const FooterContact = ({ name }) => {
         <EnquirePopUp
           setIsOpenEnquire={setIsOpen}
           heading={heading}
-          name={name}
+         
         />
       ) : null}
 
@@ -41,7 +41,7 @@ const FooterContact = ({ name }) => {
           <PiNotebookLight className="text-" />
           <p className="text-sm ">CONTACT US</p>
         </div>
-        <div className="flex flex-col items-center"      onClick={() => {
+        <div className="flex flex-col items-center" onClick={() => {
               setIsOpen(true);
               setHeading("Request a call");
             }}>

@@ -311,7 +311,7 @@ const Footer = () => {
         <img src={bottomLogo} alt="..." className="md:h-12 h-6" />
         <div className="flex md:gap-10 gap-5">
           <div className="text-[10px] md:text-base">
-            <span>Copyright © 2023 </span>
+            <span>Copyright © 2024 </span>
             <a href="https://tw-elements.com/">Botmedia Digital Marketing.</a>
           </div>
           <p className="text-[10px] md:text-base">Disclaimer</p>
