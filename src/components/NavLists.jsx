@@ -22,7 +22,7 @@ const NavLists = ({ setNavTab, navTab }) => {
           />
           <p className="">CLOSE</p>
         </div>
-        <Link to={'/'}>
+        <Link to={'https://save-max.vercel.app'}>
         <p className=" hover:text-green-800 delay-[30ms] cursor-pointer transition-all"  onClick={() => {
               setNavTab(!navTab);
             }}>
